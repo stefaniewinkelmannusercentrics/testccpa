@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+     
+<head>
+<script id="usercentrics-cmp" src="https://app.usercentrics.eu/browser-ui/latest/loader.js" data-settings-id="TwtVxTMAc" async></script>  
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width" , initial-scale="1.0">
+    <title>My CMP v2 Testpage</title>    
+ 
+</head>
+
+<body>
+
+
+    <h1>Usercentrics CMP V2 Test Page</h1>
+    <br><br>
+     <p id="myelement1">Let's see if we can get a consent for the Data Processing Service Test</p>
+    <p id="element">So far, consent has not been given for the Data Processing Service Test.</p>
+    <img src="31796fec-7813-4d1e-afb9-5d48b24ebd56.png" alt="uc-logo">
+    <br><br>
+    
+    
+<script type="text/plain" data-usercentrics="Data Processing Service Test">
+   document.getElementById("element").innerHTML = "Woohoo! You've just given consent to the Data Processing Service Test!";
+</script>
+</body>
+
+</html>
